@@ -1,4 +1,4 @@
 - name: Create Jenkins Jobs
-  hosts: {{server}}
+  hosts: "{{server}}"
   roles:
     - jenkins
