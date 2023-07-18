@@ -1,4 +1,4 @@
 - name: Create Jenkins Jobs
-  hosts: 10.162.0.2
+  hosts: {{server}}
   roles:
     - jenkins
