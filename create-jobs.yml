@@ -1,5 +1,4 @@
 - name: Create Jenkins Jobs
-  hosts: localhost
-  connection: local
+  hosts: 10.162.0.2
   roles:
     - jenkins
