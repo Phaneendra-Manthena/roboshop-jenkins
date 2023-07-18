@@ -10,6 +10,5 @@
     user: Phani
     password: "{{jenkins_password}}"
   loop:
-    - frontend
-    - cart
-    - catalogue
+    - {name: "frontend"}
+    - {name: "cart"}
