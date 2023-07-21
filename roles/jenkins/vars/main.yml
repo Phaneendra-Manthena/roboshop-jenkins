@@ -10,7 +10,7 @@ ci_pipeline_jobs:
   - {name: "user", dir: "CIPipelines"}
   - {name: "payment", dir: "CIPipelines"}
   - {name: "shipping", dir: "CIPipelines"}
-  -
+
 
 #sbranch_pipeline_jobs:
 #   - {name: "roboshop-ansible", dir: "CD"}
