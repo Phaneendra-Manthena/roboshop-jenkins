@@ -1,5 +1,5 @@
 - name: Create Jenkins Jobs
-  hosts: jenkins
+  hosts: localhost
   connection: local
   become: yes
   gather_facts: true
