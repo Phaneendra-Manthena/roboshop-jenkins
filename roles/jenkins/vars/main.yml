@@ -1,7 +1,8 @@
 folders:
   - CIPipelines
-  - CD
 #  - Infra
+
+
 ci_pipeline_jobs:
   - {name: "frontend", dir: "CIPipelines"}
   - {name: "cart", dir: "CIPipelines"}
@@ -11,7 +12,7 @@ ci_pipeline_jobs:
   - {name: "shipping", dir: "CIPipelines"}
   -
 
-sbranch_pipeline_jobs:
-   - {name: "roboshop-ansible", dir: "CD"}
-#  - {name: "roboshop-infra", dir: "Infra"}
-#  - {name: "roboshop-helm-chart", dir: "CD"}
+#sbranch_pipeline_jobs:
+#   - {name: "roboshop-ansible", dir: "CD"}
+##  - {name: "roboshop-infra", dir: "Infra"}
+##  - {name: "roboshop-helm-chart", dir: "CD"}
