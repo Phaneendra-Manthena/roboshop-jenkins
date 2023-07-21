@@ -1,4 +1,4 @@
 - name: Apply tags to tasks
   ansible.builtin.include_tasks: pipeline.yml
   loop:
-    -frontend
+    - frontend
