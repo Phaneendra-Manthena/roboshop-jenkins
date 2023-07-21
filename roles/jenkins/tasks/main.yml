@@ -6,7 +6,7 @@
     user: Phani
     password: "{{jenkins_password}}"
   loop: "{{ folders }}"
-
+  delegate_to: localhost
 - name: Create Single Pipeline Jobs
   ansible.builtin.include_tasks: sbranch-pipeline.yml
   loop: "{{ sbranch_pipeline_jobs }}"
