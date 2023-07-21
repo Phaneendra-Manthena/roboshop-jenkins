@@ -8,5 +8,5 @@
     config: "{{ lookup('file', '/tmp/s-job.xml') }}"
     name: "{{item}}"
     url: http://10.166.0.3:8080
-    user: admin
+    user: Phani
     password: "{{jenkins_password}}"
