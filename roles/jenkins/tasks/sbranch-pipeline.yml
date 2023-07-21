@@ -3,7 +3,7 @@
 #  register: out
 #  ignore_errors: yes
 
-- name: Create Config file - {{item.dir}}/{{item.name}}
+- name: Create Config file 
   ansible.builtin.template:
     src: s-job.xml
     dest: /tmp/s-job.xml
