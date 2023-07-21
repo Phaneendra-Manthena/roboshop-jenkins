@@ -1,1 +1,2 @@
+[jenkins]
 10.162.0.2    ansible_user=centos ansible_password=DevOps321
