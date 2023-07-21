@@ -2,7 +2,5 @@
   hosts: localhost
   connection: local
   become: yes
-  gather_facts: true
-  remote_user: centos
   roles:
     - jenkins
