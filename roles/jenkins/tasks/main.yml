@@ -5,6 +5,7 @@
     url: http://10.162.0.2:8080
     user: Phani
     password: "{{jenkins_password}}"
+    become_password: DevOps321
   loop: "{{ folders }}"
   delegate_to: localhost
 - name: Create Single Pipeline Jobs
