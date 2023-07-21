@@ -3,7 +3,7 @@
     src: folder.xml
     dest: /tmp/folder.xml
 
-- name: Create Job
+- name: Create Folder - {{item.dir}}
   community.general.jenkins_job:
     config: "{{ lookup('file', '/tmp/folder.xml') }}"
     name: "{{item.dir}}"
@@ -17,7 +17,7 @@
     src: s-job.xml
     dest: /tmp/s-job.xml
 
-- name: Create Job
+- name: Create Job - "{{item.dir}}/{{item.name}}"
   community.general.jenkins_job:
     config: "{{ lookup('file', '/tmp/s-job.xml') }}"
     name: "{{item.dir}}/{{item.name}}"
