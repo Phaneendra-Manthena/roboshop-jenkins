@@ -12,7 +12,7 @@ ci_pipeline_jobs:
   - {name: "shipping", dir: "CI Pipelines"}
 
 
-#sbranch_pipeline_jobs:
+sbranch_pipeline_jobs:
 #   - {name: "roboshop-ansible", dir: "CD"}
-##  - {name: "roboshop-infra", dir: "Infra"}
-##  - {name: "roboshop-helm-chart", dir: "CD"}
+  - {name: "roboshop-infra", dir: "Infra"}
+#  - {name: "roboshop-helm-chart", dir: "CD"}
