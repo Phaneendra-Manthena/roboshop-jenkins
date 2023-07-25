@@ -1,15 +1,15 @@
 folders:
-  - CI Pipelines
+  - CIPipelines
   - Infra
 
 
 ci_pipeline_jobs:
-  - {name: "frontend", dir: "CI Pipelines"}
-  - {name: "cart", dir: "CI Pipelines"}
-  - {name: "catalogue", dir: "CI Pipelines"}
-  - {name: "user", dir: "CI Pipelines"}
-  - {name: "payment", dir: "CI Pipelines"}
-  - {name: "shipping", dir: "CI Pipelines"}
+  - {name: "frontend", dir: "CIPipelines"}
+  - {name: "cart", dir: "CIPipelines"}
+  - {name: "catalogue", dir: "CIPipelines"}
+  - {name: "user", dir: "CIPipelines"}
+  - {name: "payment", dir: "CIPipelines"}
+  - {name: "shipping", dir: "CIPipelines"}
 
 
 sbranch_pipeline_jobs:
