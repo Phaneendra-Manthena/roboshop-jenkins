@@ -1,6 +1,6 @@
 folders:
   - CI Pipelines
-#  - Infra
+  - Infra
 
 
 ci_pipeline_jobs:
