@@ -1,3 +1,7 @@
+- name: Download Jenkins CLI
+  ansible.builtin.shell: |
+    curl -o /opt/jenkins-cli.jar http://10.166.0.3:8080/jnlpJars/jenkins-cli.jar
+
 - name: Create Folder
   community.general.jenkins_job:
     config: "{{ lookup('file', 'templates/folder.xml') }}"

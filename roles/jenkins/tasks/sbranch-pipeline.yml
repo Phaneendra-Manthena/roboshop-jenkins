@@ -1,7 +1,3 @@
-- name: Download Jenkins CLI
-  ansible.builtin.shell: |
-    curl -o /opt/jenkins-cli.jar http://10.166.0.3:8080/jnlpJars/jenkins-cli.jar
-
 - name: Check if Job exists or not - {{item.dir}}/{{item.name}}
   ansible.builtin.shell: java -jar /opt/jenkins-cli.jar -auth Phani:{{jenkins_password}} -s http://10.166.0.3:8080 -webSocket get-job {{item.dir}}/{{item.name}}
   register: out
